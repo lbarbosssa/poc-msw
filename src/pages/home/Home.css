@@ -1,0 +1,27 @@
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .input-button-container {
+    display: flex;
+    width: 100%; 
+    justify-content: center; 
+    gap: 10px; 
+    padding: 10px;
+    box-sizing: border-box; 
+  }
+
+  .input-button-container > * {
+    flex: 1; 
+    max-width: 300px; 
+  }
+  
+.input-button-container .custom-button {
+      max-width: 150px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }

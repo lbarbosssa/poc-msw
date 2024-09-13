@@ -1,0 +1,29 @@
+:root {
+    --common-transition: all 0.4s ease-in-out;
+}
+
+body,
+input {
+    transition: var(--common-transition);
+
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+}
+
+.card {
+    box-shadow: var(--bs-card);
+}
+
+.card:hover{
+    box-shadow: var(--bs-card-hover);
+}
+
+input {
+    color: var(--text-color);
+    transition: var(--common-transition) !important;
+    background-color: var(--input-bg);
+    border-color: var(--input-border)!important;
+}

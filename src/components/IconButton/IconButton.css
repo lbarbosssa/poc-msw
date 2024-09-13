@@ -1,0 +1,23 @@
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .icon-button:focus {
+    outline: none;
+    
+  }
+  
+  .icon-image {
+    width: 24px; 
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
